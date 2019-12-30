@@ -1,0 +1,22 @@
+{
+  "name": "demowork",
+  "version": "1.0.0",
+  "description": "Using Sass for this project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./src/style/sass/style.scss ./src/style/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushpenderthakur/DemoWork.git"
+  },
+  "author": "Pushpender",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pushpenderthakur/DemoWork/issues"
+  },
+  "homepage": "https://github.com/pushpenderthakur/DemoWork#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
